@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Моя Москва</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&family=Dancing+Script:wght@600&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    >
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:760px)" href="css/mobile-mobile.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script defer src="js/slider2"></script>
+    <script defer src="js/dotted.js"></script>
+    <script defer src="js/menu.js"></script>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <section class="header">
+        <header>
+          <div class="logo">
+            <img class="logo_img" src="icons/spasskaya-tower.png">
+            <div class="logo_title">My Moscow</div>
+          </div>
+          <div class="menu">
+            <a class="menu_item" href="#">Главная</a>
+            <a class="menu_item" href="trips.html">Наши услуги</a>
+            <a class="menu_item" href="#about">О компании</a>
+            <a class="menu_item" href="contacts.html">Контакты</a>
+            <a class="menu_item" href="#rev">Отзывы</a>
+          </div>
+          <div class="d-none menu-mobile">
+            <i class="menu-mobile__hamburger fa fa-2x fa-bars" aria-hidden="true"></i>
+            <a class="menu-mobile_item" href="#">Главная</a>
+            <a class="menu-mobile_item" href="trips.html">Наши услуги</a>
+            <a class="menu-mobile_item" href="#about">О компании</a>
+            <a class="menu-mobile_item" href="contacts.html">Контакты</a>
+            <a class="menu-mobile_item" href="#rev">Отзывы</a>
+          </div>
+        </header>
+
+        <!-- слайдер -->
+        <div class="slider">
+          <div class="slider-line">
+            <img src="photos/top.jpg" alt="храм христа спасителя" />
+            <img src="photos/1.jpg" alt="" />
+            <img src="photos/2.jpg" alt="" />
+            <img src="photos/3.jpg" alt="" />
+            <img src="photos/4.jpg" alt="" />
+            <img src="photos/5.jpg" alt="" />
+            <img src="photos/6.jpg" alt="" />
+            <img src="photos/7.jpg" alt="" />
+            <img src="photos/8.jpg" alt="" />
+          </div>
+
+          <div class="slider-box_description">
+            <h1>Необычная Москва</h1>
+            <h2>My Moscow - агентство необычных маршрутов</h2>
+            <div class="slider-box_btn btn btn_blue">ПОДРОБНЕЕ О НАС</div>
+          </div>
+        </div>
+
+        <!-- панель управления слайдером -->
+        <div class="control-btn">
+          <div class="btn1 btn-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i>
+          </i>
+          </div>
+          <div class="btn1 btn-next"><i class="fa fa-chevron-right" aria-hidden="true"></i>
+          </div>
+      </div>
+      </section>
+
+      <section>
+        <div class="section-wrapper">
+          <h1 class="title t-center">ЧТО МЫ ПРЕДЛАГАЕМ?</h1>
+          <h2 class="t-center">
+            Наша главная цель - рассказать так о Москве, чтобы это было
+            интересно всем
+          </h2>
+          <div class="box-description d-flex d-wrap">
+            <div class="box-description_item d-flex">
+              <img src="icons/map.png" alt="map" />
+              <div class="number">
+                <h4>НЕОБЫЧНЫЕ МАРШРУТЫ</h4>
+                <p> 
+                  Мы обязательно порадуем тебя необычными маршрутами Москвы,
+                  которые прокладывают наши опытные гиды. Ты увидишь и узнаешь о
+                  Москве то, что никогда не знал!
+                </p>
+              </div>
+            </div>
+            <div class="box-description_item d-flex">
+              <img src="icons/souvenir.png" alt="map" />
+              <div class="number">
+                <h4>КЛАССНЫЕ СУВЕНИРЫ</h4>
+                <p>
+                  Отличная новость! У нас появился магазин сувениров! И самое
+                  примечательное, что все эти сувениры мы делаем сами! Заходи к
+                  нам в гости!
+                </p>
+              </div>
+            </div>
+            <div class="box-description_item d-flex">
+              <img src="icons/compass.png" alt="map" />
+              <div class="number">
+                <h4>ИНТЕРЕСНЫЕ ЭКСКУРСИИ</h4>
+                <p>
+                  За время экскурсий, которых у нас больше 20, ты узнаешь и
+                  увидишь все основные досопримечательности: Кремль, Храм Христа
+                  Спасителя, так и пройдешься по пешеходным улицам Москвы,
+                  узнаешь их историю и сделаешь самые классные фотографии.
+                </p>
+              </div>
+            </div>
+            <div class="box-description_item d-flex">
+              <img src="icons/picture.png" alt="map" />
+              <div class="number">
+                <h4>ФОТОСЕССИИ В МОСКВЕ</h4>
+                <p>
+                  Команда MyMoscow рада провести креативные фотосессии в любом
+                  уголке Москвы. Не важно, свадьба у Вас или просто захотелось
+                  добавить в альбом или инстаграм красивых фоток.
+                </p>
+              </div>
+            </div>
+            <div class="box-description_item d-flex">
+              <img src="icons/discussion.png" alt="map" />
+              <div class="number">
+                <h4>НОВЫЕ ЗНАКОМСТВА</h4>
+                <p>
+                  MyMoscow - это целый клуб, где после московских проулок ты
+                  сможешь продолжить общение с теми, кому интересна Москва ,
+                  знакомиться с новыми людьми и делиться впечатлениями.!
+                </p>
+              </div>
+            </div>
+            <div class="box-description_item d-flex">
+              <img src="icons/sun.png" alt="map" />
+              <div class="number">
+                <h4>ЯРКИЕ ВПЕЧАТЛЕНИЯ</h4>
+                <p>
+                  Самое важное - это яркие эмоции, которые остануться с тобой на
+                  долгое время! Поэтому в нашей команде мы ждем именно тебя!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-about d-flex d-wrap" id = "about">
+        <div class="people-bg"></div>
+        <div class="about">
+          <div class="about_description">
+            <h1>КТО МЫ ТАКИЕ</h1>
+            <p>
+              Мы - команда тех, кто любит историю и любит Москву.<br /><br />
+
+              Москва – это не только место по «заколачиванию денег» и
+              «взращиванию карьеры», а еще и бесконечно красивые памятники
+              природы, заказники, парки, заповедники. Активный отдых в Москве и
+              Подмосковье – это отличная возможность вырваться из душного
+              мегаполиса куда-нибудь в «дебри», навстречу приключениям. К
+              счастью, не все Подмосковье еще «облагорожено» асфальтными
+              дорожками и высоченными коттеджными заборами. Еще встречаются
+              места, настолько глухие и далекие, что, очутившись там, кажется,
+              что ты – первый человек, ступивший на эту землю.<br />
+
+              Там, где не проедет автомобилист и даже велосипедист, найдет
+              лазейку и откроет для себя все красоты 100% бездорожья турист,
+              проводящий свой активный отдых в Подмосковье.
+            </p>
+            <div class="btn btn_yellow">ПОДРОБНЕЕ О НАС</div>
+          </div>
+        </div>
+      </section>
+      <section class="section-wrapper t-center">
+        <h1 class="title">МОСКВА В ФОТОГРАФИЯХ</h1>
+        <div class="line"></div>
+        <p>
+          Проще всего рассказать обо всем в фотографиях. Смотрите наши
+          фотоотчеты и присылайте нам свои фотографии.
+        </p>
+      </section>
+      <section class="section-photos d-flex d-wrap">
+        <img src="photos/1.jpg" alt="" />
+        <img src="photos/2.jpg" alt="" />
+        <img src="photos/3.jpg" alt="" />
+        <img src="photos/4.jpg" alt="" />
+        <img src="photos/5.jpg" alt="" />
+        <img src="photos/6.jpg" alt="" />
+        <img src="photos/7.jpg" alt="" />
+        <img src="photos/8.jpg" alt="" />
+      </section>
+
+      <section class="section-wrapper">
+        <div class="title-review t-center" id="rev">
+          <h1 class="title">ОТЗЫВЫ</h1>
+          <div class="line"></div>
+        </div>
+
+        <div class="box-review d-flex d-wrap">
+          <div class="box-review__item">
+            <p id="p1">
+              Были с дочкой и подругой на ночной экскурсии. Все таки как много
+              зависит от экскурсовода! Мы все четыре часа ходили за Станиславом
+              Симоновым, как кролики. Боялись пропустить хоть одно слово. При
+              этом моей дочке - которая побывала во многих местах и с детства
+              искушенная на интересные события - была сильно увлечена.
+            </p>
+
+            <div class="box-review__user">
+              <img id="img1" src="testimonials/test1.jpg" alt="Kate" />
+              <label id = "l1">Екатерина Васильева</label>
+            </div>
+
+          </div>
+          <div class="box-review__item">
+            <p id ="p2">
+              Ездили на экскурсию с семиклассниками и родителями. Всем очень
+              понравилось! Экскурсовод Михаил Борисович очень интересно,
+              необычно и с юмором рассказывал о Москве 16 века. Гибко
+              подстраивал эксукурсию под интересы и потребности слушателей,
+              ловко «управлял» подачей автобуса, не давая нам замёрзнуть.)
+              Огромное спасибо!
+            </p>
+            <div class="box-review__user">
+              <img id="img2" src="testimonials/test2.jpg" alt="Anna" />
+              <label id = "l2">Анна Крушевская</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="box-dotted t-center">
+          <span class="box-dotted__item" id="dotted1"></span>
+          <span class="box-dotted__item" id="dotted2"></span>
+          <span class="box-dotted__item" id="dotted3"></span>
+          <span class="box-dotted__item" id="dotted4"></span>
+        </div>
+      </section>
+
+
+      <section class = "feedback">
+          <div class="title-review t-center">
+          <h1 class="title">НАПИШИТЕ НАМ</h1>
+          <div class="line"></div>
+
+
+          <form class = "form1">
+            <div class = "form1_enter d-flex">
+              <div class ="box-description_item">
+                <input name="fio" type="text" placeholder = "ФИО" maxlength="100"><br>
+                <input name="email" type="email" placeholder = "Email" maxlength="50"><br>
+                <input name="phone" type="tel" placeholder = "Телефон" maxlength="15">
+              </div>
+
+              <div class = "box-description_item">
+                <textarea name ="message" placeholder = "Ваше сообщение" rows ="10" cols="15" maxlength="2000"></textarea>
+              </div>
+            </div>
+            
+            <div class = "btn-container d-flex">
+              <div class="btn btn-question">ОТПРАВИТЬ ВОПРОС</div>
+            </div>
+            
+        </form>
+
+      </section>
+
+
+      <section class = "contacts_news d-flex">
+
+        <div class = "contacts_news_3">
+          <div class="logo">
+            <img class="logo_img" src="icons/spasskaya-tower.png">
+            <div class="logo_title">My Moscow</div>
+          </div>
+          <p>
+            Мы приглашаем тебя на самые разные экскурсии по Москве. Автобусные и пешеходные, на целый день или на несколько часов, на свежем воздухе или с заходом в здания - у нас в ассортименте более 20 авторских экскурсий по Москве, выбирай и узнавай Москву вместе с нами!
+          </p>
+        </div>
+
+        <div  class = "contacts_news_3">
+          <h4>Контакты</h4>
+          <div class = "cont_flex d-flex">
+            <img class = "img20" src = "icons/placeholder.png">
+            <p>Москва, Большая Спасская 12</p>
+          </div>
+          <div class = "cont_flex d-flex">
+            <img class = "img20" src = "icons/mail.png">
+            <p>moscow@imoscow.ru</p>
+          </div>
+          <div class = "cont_flex d-flex">
+            <img class = "img20" src = "icons/telephone.png">
+            <p>8 (495) 626-46-00</p>
+          </div>
+        </div>
+
+        <div  class = "contacts_news_3">
+          <h4>Последние новости</h4>
+          <div class = "news">
+            <p>Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sit amet varius est, ut varius risus. Integer sed aliquam sem. Suspendisse venenatis viverra ipsum nec consecteturstandard dummy</p>
+            <p class = "dmy">5 марта 2018</p>
+          </div>
+          <div class = "news">
+            <p>Curabitur felis nibh, lacinia non rhoncus vel, lobortis et lorem. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse sit amet varius est, ut varius risus. Integer sed aliquam sem. Suspendisse venenatis viverra ipsum nec consecteturstandard dummy</p>
+            <p class = "dmy">12 декабря 2017</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class = "footer d-flex">
+          <div><p>© 2018 Copyright. Все права защищены</p></div>
+          <div><p>Designed by Nordic IT School</p></div>
+          <div class="social_icon">
+            <img src = "social/vk.png" alt="">
+            <img src = "social/facebook.png" alt="">
+            <img src = "social/instagram.png" alt="">
+          </div>
+      </footer>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,84 @@
+
+.menu {
+    display: none;
+}
+
+.menu-mobile {
+    transition: all 300ms;
+    max-width: 150px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    position: fixed;
+    /* right: 0 !important; */
+    right: -104px;
+    top: 0;
+    bottom: 0;
+    backdrop-filter: blur(2px);
+}
+
+.menu-mobile__hamburger {
+    color: rgb(171, 217, 219);
+    text-shadow: 0 0 4px;
+    position: absolute;
+    left: -35px;
+    top: 10px;
+    transition: all 300ms;
+}
+
+.menu-mobile__hamburger:hover {
+    cursor: pointer;
+    color: greenyellow;
+}
+
+.menu-mobile_item {
+    padding: 10px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    transition: all 250ms;
+}
+
+.menu-mobile_item:hover {
+    color: gold;
+}
+
+.btn1:hover {
+    cursor: pointer;
+    color:palegoldenrod;
+    background-color: rgba(224, 9, 9, 0.442);
+    border-radius: 10px;
+  }
+
+.btn-prev, .btn-next {
+    top: 0;
+  }
+
+  .btn-prev {
+    left: 100px;
+  }
+
+  .btn-next {
+    right: 100px;
+  }
+
+  @media screen and (max-width:370px){
+    .btn1 {
+        height: 32px;
+        padding: 2px;
+        text-align: center;
+        font-size: 25px;
+      }
+
+    .btn-prev, .btn-next {
+        position: static;
+      }
+
+      .control-btn {
+        margin-bottom: -100px;
+      }
+      
+      h1.title {
+        line-height: 1.2;
+      }
+  }

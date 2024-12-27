@@ -1,0 +1,38 @@
+const images = $('.slider .slider-line img')
+const sliderLine = $('.slider-line')
+let count = 0
+let width
+
+function init() {
+    console.log('init')
+    width = $('.slider').width()
+    $(sliderLine).width(width * images.length)
+    $(images).each((index, img) => {
+
+        $(img).width(width)
+        $(img).height('auto')
+
+    })
+    rollSlider()
+}
+
+window.onload = init()
+window.addEventListener('resize', init)
+
+function rollSlider() {
+
+    $(sliderLine).css('transform', 'translate(-' + count * width + 'px)')
+}
+
+$('.control-btn .btn-next').on('click', () => {
+    count++
+    if (count >= images.length) count = 0
+    rollSlider()
+})
+
+$('.control-btn .btn-prev').on('click', () => {
+    count--
+    if (count < 0) count = images.length - 1
+    rollSlider()
+})
+
